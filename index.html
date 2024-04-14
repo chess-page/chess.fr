@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr" itemscope itemtype="https://schema.org/Game">
+  <head>
+    <title>Echecs : Le Roi des jeux</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Echecs - Le Roi des jeux">
+    <meta name="keywords" content="Echecs, règles, jeu">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="Echecs : Le Roi des jeux">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fr.chess.page/">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Echecs : Le Roi des jeux">
+
+    <link rel="alternate" hreflang="en" href="https://en.chess.page/">
+    <!-- <link rel="alternate" hreflang="fr" href="https://fr.chess.page/"> -->
+    <link rel="alternate" hreflang="ja" href="https://ja.chess.page/">
+    <link rel="alternate" hreflang="th" href="https://th.chess.page/">
+    <link rel="alternate" hreflang="zh" href="https://zh.chess.page/">
+
+    <link rel="canonical" href="https://fr.chess.page/">
+
+    <link rel="icon" type="image/svg+xml" sizes="any" href="favicon.svg">
+
+    <link rel="stylesheet" href="css/props.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/all.css" media="all">
+    <link rel="stylesheet" href="css/print.css" media="print">
+    <link rel="stylesheet" href="css/screen.css" media="screen">
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Game",
+        "name": "Echecs",
+        "description": "Echecs - Le Roi des jeux",
+        "keywords": "Echecs, règles, jeu",
+        "url": "https://fr.chess.page/",
+        "datePublished": "2024-04-11"
+      }
+    </script>
+
+    <script type="module">
+      import { enhanceArticle } from './js/summary-nav-module.js';
+      enhanceArticle();
+    </script>
+  </head>
+
+  <body>
+    <article>
+      <header>
+        <h1>
+          Règles du jeu d'échecs
+        </h1>
+
+        <p>
+          <strong>Les échecs</strong>, également connus sous le nom de <strong>Roi des jeux</strong>, est un jeu de stratégie de plateau.
+        </p>
+      </header>
+
+      <nav aria-label="Sommaire">
+      </nav>
+
+      <section id="objective">
+        <h2>Objectif</h2>
+
+        <p>L'objectif des échecs est de mettre en échec et mat le roi de votre adversaire. Cela signifie placer le roi ennemi dans une position où il ne peut pas échapper à la capture.</p>
+      </section>
+
+      <section id="game-setup">
+        <h2>Mise en place du jeu</h2>
+
+        <ul>
+          <li>L'échiquier est une grille de 8x8 cases avec des cases sombres et claires alternées.</li>
+          <li>Chaque joueur commence avec 16 pièces : un roi, une reine, deux tours, deux cavaliers, deux fous et huit pions.</li>
+          <li>Les pièces sont disposées sur l'échiquier de manière spécifique : les deux rangées les plus proches de chaque joueur sont remplies de leurs pièces, avec les pions en première ligne et les autres pièces derrière eux.</li>
+          <li>L'échiquier est disposé de sorte que la case en bas à droite de chaque joueur soit une case claire.</li>
+        </ul>
+      </section>
+
+      <section id="movement-of-pieces">
+        <h2>Déplacement des pièces</h2>
+
+        <ul>
+          <li>
+            Chaque type de pièce se déplace de manière spécifique :
+
+            <ul>
+              <li>Le roi peut se déplacer d'une case dans n'importe quelle direction.</li>
+              <li>La dame peut se déplacer d'un nombre quelconque de cases dans n'importe quelle direction : horizontalement, verticalement ou en diagonale.</li>
+              <li>Les tours peuvent se déplacer d'un nombre quelconque de cases horizontalement ou verticalement.</li>
+              <li>Les cavaliers se déplacent en forme de L : deux cases dans une direction (horizontale ou verticale), puis une case perpendiculaire à cela.</li>
+              <li>Les fous se déplacent d'un nombre quelconque de cases en diagonale.</li>
+              <li>Les pions se déplacent d'une case vers l'avant, mais lors de leur premier déplacement, ils ont la possibilité de se déplacer de deux cases vers l'avant. Les pions capturent en diagonale d'une case vers l'avant.</li>
+            </ul>
+          </li>
+
+          <li>Les pièces ne peuvent pas se déplacer à travers d'autres pièces, sauf le cavalier, qui peut sauter par-dessus d'autres pièces.</li>
+          <li>Si une pièce se déplace sur une case occupée par une pièce adverse, cette pièce est capturée et retirée de l'échiquier.</li>
+        </ul>
+      </section>
+
+      <section id="special-moves">
+        <h2>Mouvements spéciaux</h2>
+
+        <dl>
+          <dt>Roque</dt>
+          <dd>Si ni le roi ni la tour utilisée pour le roque n'ont bougé auparavant, et s'il n'y a aucune pièce entre eux, le roi peut se déplacer de deux cases vers la tour, et la tour saute par-dessus le roi pour se placer sur la case à côté de lui. Il s'agit d'un mouvement spécial pour protéger le roi et activer la tour.</dd>
+
+          <dt>En passant</dt>
+          <dd>Si un pion se déplace de deux cases vers l'avant depuis sa position de départ et atterrit à côté d'un pion adverse, l'adversaire a la possibilité de le capturer comme s'il s'était déplacé d'une seule case vers l'avant. Cela doit être fait immédiatement après le déplacement du pion sur deux cases ; sinon, l'opportunité est perdue.</dd>
+
+          <dt>Promotion du pion</dt>
+          <dd>Lorsqu'un pion atteint le côté opposé de l'échiquier, il peut être promu à n'importe quelle autre pièce (sauf un roi) de la même couleur.</dd>
+        </dl>
+      </section>
+
+      <section id="check-and-checkmate">
+        <h2>Échec et échec et mat</h2>
+
+        <ul>
+            <li>Si le roi d'un joueur est menacé de capture (mais n'est pas encore capturé), on dit qu'il est en échec. Le joueur doit effectuer un mouvement pour éliminer la menace de capture.</li>
+            <li>Si le roi d'un joueur est en échec et qu'il n'y a aucun mouvement légal pour éliminer la menace, c'est l'échec et mat, et la partie est terminée. Le joueur dont le roi est en échec et mat perd la partie.</li>
+        </ul>
+      </section>
+
+      <section id="stalemate-and-draw">
+        <h2>Pat et partie nulle</h2>
+
+        <ul>
+          <li>Le pat se produit lorsque le joueur qui doit jouer n'a aucun mouvement légal et que son roi n'est pas en échec. Dans ce cas, la partie est nulle (un match nul), car le joueur n'est pas en échec et mat mais n'a aucun mouvement légal.</li>
+          <li>Nulle par manque de matériel : Si aucun des joueurs n'a suffisamment de pièces pour forcer un échec et mat (par exemple, roi contre roi, roi et fou contre roi), la partie est nulle.</li>
+          <li>Nulle par répétition : Si la même position se produit trois fois avec le même joueur devant jouer et les mêmes mouvements possibles disponibles, la partie est nulle.</li>
+        </ul>
+      </section>
+
+      <section id="ending-the-game">
+        <h2>Fin de la partie</h2>
+
+        <ul>
+          <li>La partie peut se terminer par échec et mat, pat, ou une nulle par accord entre les joueurs, manque de matériel, ou répétition triple.</li>
+          <li>Si un joueur est incapable de faire un mouvement légal (souvent appelé une "position morte"), la partie se termine.</li>
+        </ul>
+      </section>
+
+      <section id="art-and-literature">
+        <h2>Art et littérature</h2>
+
+        <p>
+          Les échecs ont une riche histoire intimement liée à l'art et à la littérature.
+          Deux œuvres remarquables se distinguent :
+        </p>
+
+        <dl>
+          <dt><q>Scacchi ludus</q> (1527) de Marco Girolamo Vida</dt>
+          <dd>Ce poème décrit une partie d'échecs entre des dieux sur le mont Olympe. Sa beauté a captivé l'attention des lecteurs, inspirant des œuvres ultérieures comme le poème <q>Échecs</q> de Jan Kochanowski.</dd>
+
+          <dt><q>Caïssa: or The Game of Chess</q> (1772) de William Jones</dt>
+          <dd>Ce poème a introduit Caïssa, une figure mythique représentant l'esprit des échecs.</dd>
+        </dl>
+
+        <p>
+          Ces œuvres ont eu une influence durable sur la culture des échecs.
+          Elles ont été référencées dans la littérature, l'analyse de parties, et même dans l'art. Tant <q>Scacchi ludus</q> que Caïssa demeurent des aspects importants du patrimoine culturel des échecs.
+        </p>
+
+        <picture>
+          <img src="img/caissa-and-mercury-apollo-game.jpeg" alt="Illustration représentant la partie mythique entre Caïssa et Mercure avec Apollon sur le mont Olympe" title="Illustration de Caïssa et Scaccia Ludus">
+        </picture>
+      </section>
+    </article>
+
+    <nav aria-label="Sélection de la langue">
+      <p>Disponible également dans d'autres langues :</p>
+
+      <ul>
+        <li><a title="Switch to English" href="https://en.chess.page/" lang="en">English</a></li>
+        <!-- <li><a title="Switch to French" href="https://fr.chess.page/" lang="fr">Français</a></li> -->
+        <li><a title="Switch to Japanese" href="https://ja.chess.page/" lang="ja">日本語</a></li>
+        <li><a title="Switch to Thai" href="https://th.chess.page/" lang="th">ภาษาไทย</a></li>
+        <li><a title="Switch to Chinese" href="https://zh.chess.page/" lang="zh">中文</a></li>
+      </ul>
+    </nav>
+
+    <footer>
+      <p>
+        <a href="https://github.com/chess-page/chess.fr/edit/main/index.html" rel="external">Modifier cette page sur GitHub</a>
+      </p>
+    </footer>
+  </body>
+</html>
